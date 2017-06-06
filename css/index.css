@@ -1,0 +1,471 @@
+/*index*/
+header,article,footer,section{
+    display: block;
+}
+/*头部样式*/
+.myNav{
+    width: 100%;
+    height: 70px;
+    background-color: #051B27;
+}
+/*logo*/
+.logo{
+    width: 290px;
+    height: 100%;
+    /* background-color: red;*/
+    float: left;
+    margin-left: 150px;
+}
+.logoImg{
+    width: 53px;
+    height: 53px;
+    /* background-color: green;*/
+    background: url("../images/logo.jpg") no-repeat center;
+    float: left;
+    margin-top: 9px;
+}
+.logoLine{
+    width: 2px;
+    height: 20px;
+    background-color: #284A95;
+    float: left;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.logoWord{
+    width:205px ;
+    height: 30px;
+    /* background-color: green;*/
+    float: left;
+    margin-top: 20px;
+    margin-left: 15px;
+    line-height: 30px;
+    font-weight: 600;
+    color:#767B80 ;
+}
+/*导航*/
+.Nav{
+    width: 500px;
+    height: 100%;
+    /*background-color: red;*/
+    float: right;
+    margin-right: 130px;
+}
+.Nav>ul>li{
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+    /*  background-color: #2a6496;*/
+    margin-top: 25px;
+}
+.Nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.contact{
+    margin-right: 0px;
+}
+.Nav>.line>li{
+    width: 56px;
+    height: 2px;
+    background-color: #6AC5F9;
+    margin-top: 23px;
+}
+.Nav>.line>li{
+    display: none;
+}
+.Nav>.line>.active{
+    display: block;
+}
+/*轮播广告图*/
+.ad{
+    width: 100%;
+    height: 738px;
+    /*background-color: blue;*/
+    margin: 0 auto;
+    position: absolute;
+    top: 70px;
+    left: 0px;
+}
+
+/*辰硕产品*/
+.project{
+    width: 100%;
+    height: 460px;
+    background-color: #F4F7F9;
+    position: absolute;
+    top: 680px;
+    left: 0px;
+}
+.proTop{
+    width: 250px;
+    height: 115px;
+    /* background-color: red;*/
+    position: absolute;
+    top: 35px;
+    left:550px ;
+}
+.pro{
+    margin-left: 80px;
+    font-weight: 600;
+    font-size: x-large;
+    color: #0EB493;
+}
+.pro2{
+    margin-left: 77px;
+    font-size: large;
+    margin-top: -5px;
+}
+.heart{
+    width: 100%;
+    height: 30px;
+    /* background-color: green;*/
+    margin-top: 10px;
+}
+.heart hr,div{
+    float: left;
+}
+.heart hr{
+    width: 100px;
+    height: 2px;
+    background-color: #C3C6C7;
+    border: 0px;
+    margin-top: 15px;
+}
+.heart div{
+    width: 30px;
+    height: 30px;
+    /*  background-color: lightcoral;*/
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.heart div span{
+    color: #C3C6C7;
+    font-size: 1.5em;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+.proBottom{
+    width: 1200px;
+    height: 200px;
+  /*  background-color: red;*/
+    position: absolute;
+    top: 200px;
+    left: 80px;
+}
+.proBottom .proBoo{
+    width: 330px;
+    height: 180px;
+    /*background-color: darkblue;*/
+    float: left;
+    margin-right: 70px;
+}
+#proBottom1{
+    margin-left: 35px;
+}
+#proBottom3{
+    margin-right: 0px;
+}
+.phoneImg{
+    width: 43px;
+    height: 44px;
+    /*background-color: gold;*/
+    float: left;
+    border: 1px solid #1EA78D;
+    border-radius: 22px;
+}
+.phoneImg span{
+    font-size: x-large;
+    margin-top: 8px;
+    margin-left: 8px;
+    color: #1EA78D;
+}
+.phoneWord{
+    width: 270px;
+    height: 170px;
+   /* background-color: darkmagenta;*/
+    float: left;
+}
+.phoneWord .app{
+    font-size: large;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.phoneWord .app2,.app3{
+    margin-left: 20px;
+    color: #9AA1A7;
+    font-size: small;
+    font-weight: 600;
+}
+/*案例分享*/
+.share{
+    width: 100%;
+    height: 900px;
+   /* background-color:firebrick;*/
+    position: absolute;
+    top:1140px ;
+    left: 0px;
+}
+.share .shareTop{
+    width: 250px;
+    height: 115px;
+    /*background-color: hotpink;*/
+    margin-top: 50px;
+    margin-left: 550px;
+    margin-bottom: 35px;
+}
+.shareTop .sharePro{
+    margin-left: 80px;
+    font-weight: 600;
+    font-size: x-large;
+    color: #0EB493;
+}
+.shareTop .sharePro2{
+    margin-left: 62px;
+    font-size: large;
+    margin-top: -5px;
+}
+.shareWord{
+    width: 960px;
+    height: 50px;
+    /*background-color: #2aabd2;*/
+    margin-left: 200px;
+    margin-bottom: 40px;
+    font-size: large;
+    text-align: center;
+}
+.shareNav{
+    width: 500px;
+    height: 50px;
+   /* background-color: #2b542c;*/
+    margin-left: 450px;
+    margin-bottom: 10px;
+}
+.sharePro3{
+    width: 100%;
+    height: 575px;
+    background-color: #2A283E;
+}
+.sharePro3 div{
+    width: 300px;
+    height: 250px;
+   /* background-color: #2aabd2;*/
+    margin: 18px;
+}
+#sharePro3_4,#sharePro3_8{
+    margin-right: 0px;
+}
+/*顶级团队*/
+.team{
+    width: 100%;
+    height: 800px;
+    /*background-color: whitesmoke;*/
+    position: absolute;
+    top: 2065px;
+    left: 0px;
+}
+.team1{
+    width: 250px;
+    height: 115px;
+    /*background-color: hotpink;*/
+    margin-top: 50px;
+    margin-left: 550px;
+    margin-bottom: 35px;
+}
+.team1 .sharePro{
+    margin-left: 80px;
+    font-weight: 600;
+    font-size: x-large;
+    color: #0EB493;
+}
+.team1 .sharePro2{
+    margin-left: 100px;
+    font-size: large;
+    margin-top: -5px;
+}
+.teamWord{
+    width: 960px;
+    height: 50px;
+  /*  background-color: red;*/
+    margin-left: 200px;
+    margin-bottom: 40px;
+    font-size: large;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.designer{
+    width: 1200px;
+    height: 300px;
+   /* background-color: #0EB493;*/
+    margin-left: 80px;
+}
+.designer .deImg{
+    width: 270px;
+    height: 300px;
+    /*background-color: red;*/
+    margin: 0 15px;
+}
+#deImg4{
+    margin-right: 0px;
+}
+/*专业服务*/
+.service{
+    width: 100%;
+    height: 600px;
+    /*background-color: #0EB493;*/
+    background: url("../images/bg.jpg") no-repeat center;
+    position: absolute;
+    top:2865px;
+    left:0px ;
+}
+.service1{
+    width: 250px;
+    height: 115px;
+   /* background-color: hotpink;*/
+    margin-top: 50px;
+    margin-left: 550px;
+    margin-bottom: 35px;
+}
+.service1 .sharePro{
+    margin-left: 80px;
+    font-weight: 600;
+    font-size: x-large;
+    color: #0EB493;
+}
+.service1 .sharePro2{
+    margin-left: 10px;
+    font-size: large;
+    margin-top: -5px;
+    color: white;
+}
+.service2,.service3{
+    width: 1200px;
+    height: 140px;
+   /* background-color: #2a6496;*/
+    margin-bottom: 50px;
+    margin-left: 70px;
+}
+.service2 li{
+    list-style: none;
+    float: left;
+    margin-right: 9px;
+    /*background-color: red;*/
+}
+.serv{
+    width: 130px;
+    height:130px;
+    border: 1px solid white;
+    border-radius: 65px;
+}
+.serv span{
+    margin-top: 40px;
+    margin-left: 40px;
+    color: white;
+    font-size: 50px;
+}
+.cic{
+    color: white;
+    font-size: xx-large;
+    font-weight: 600;
+    width: 50px;
+    text-align: center;
+    margin-top: 40px;
+}
+.service3 li{
+    list-style: none;
+    float: left;
+    margin-right: 140px;
+   /* background-color: red;*/
+    text-align: center;
+}
+.service3 li .persent{
+    font-size: xx-large;
+    font-weight: 600;
+    color: white;
+}
+.service3 li .serWord{
+    font-size: small;
+    font-weight: 600;
+    color: white;
+}
+#online{
+    margin-right: 0px;
+    margin-left: -20px;
+}
+#analys{
+    margin-left: 30px;
+}
+/*联系我们*/
+.Contact{
+    width: 100%;
+    height: 500px;
+   /* background-color: #0EB493;*/
+    position: absolute;
+    top: 3465px;
+    left: 0px;
+}
+.Con1{
+    width: 250px;
+    height: 115px;
+    /* background-color: hotpink;*/
+    margin-top: 50px;
+    margin-left: 550px;
+    margin-bottom: 35px;
+}
+.Con1 .sharePro{
+    margin-left: 80px;
+    font-weight: 600;
+    font-size: x-large;
+    color: #0EB493;
+}
+.Con1 .sharePro2{
+    margin-left: 78px;
+    font-size: large;
+    margin-top: -5px;
+}
+.Con2{
+    width: 100%;
+    height: 400px;
+    /*background-color: red;*/
+    background: url("../images/map.png") no-repeat center;
+}
+/*底部*/
+footer{
+    width: 100%;
+    height: 260px;
+    background-color: #37BDA1;
+    position: absolute;
+    top: 3965px;
+    left: 0px;
+}
+.add{
+    width: 100%;
+    height: 220px;
+}
+.add div{
+    width: 250px;
+    height: 50px;
+   /* background-color: red;*/
+    float: left;
+    margin-right: 30px;
+    margin-top: 80px;
+}
+.Add{
+    margin-left: 220px;
+}
+.copyRight{
+    width: 100%;
+    height: 40px;
+    background-color: #1EA78D;
+}
+.copyRight div{
+    width: 300px;
+    height: 20px;
+   /* background-color: red;*/
+    margin-top: 15px;
+    margin-left: 540px;
+    font-size: small;
+    line-height: 20px;
+}
